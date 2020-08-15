@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-stretch: semi-expanded;
+    letter-spacing: 3px;
+    text-align: center;
+    background-image: url(assets/Background_smooth.png);
+}
+h1 {
+    letter-spacing: 3px;
+    color: white;
+}
+em {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.logo {
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nav-link {
+    color:#6d81b6;
+}
+.nav-link:hover {
+    color:#333;
+    /* width: 110%;
+    border-radius: 20px;
+    background-color: #6d81b6; */
+}
+.nav-link:active {
+    color: #333333;
+}
+
+
+.jumbotron {
+    height: 65vh;
+    /* margin-top: 0; */
+    margin-bottom: 0;
+    background-color: transparent;
+    background-image: url(assets/Cards.png);
+    background-size: cover;
+        -webkit-background-size: cover;    
+        -moz-background-size: cover;   
+        -ms-background-size: cover;   
+        -o-background-size: cover;  
+}
+
+
+#about {
+    /* height: 800px; */
+    width: 100%;
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.mePic {
+    width: 100%;
+}
+
+.portfolioImages {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    ;}
