@@ -66,6 +66,7 @@ em {
     padding: 100px;
     background-color: white;
     text-align: center;
+    /* scroll-behavior: smooth; */
 }
 .mePic {
     width: 100%;
