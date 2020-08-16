@@ -1,3 +1,6 @@
+
+/* UNIVERSAL STYLING */
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-stretch: semi-expanded;
@@ -14,6 +17,8 @@ em {
     font-weight: 500;
 }
 
+/* NAV STYLING */
+
 .logo {
     width: 30%;
     margin: auto;
@@ -21,7 +26,6 @@ em {
     margin-bottom: 10px;
     display: block;
 }
-
 .nav-link {
     color:#6d81b6;
 }
@@ -35,11 +39,12 @@ em {
     color: #333333;
 }
 
+/* HOME PAGE STYLING */
 
 .jumbotron {
     height: 65vh;
-    /* margin-top: 0; */
     margin-bottom: 0;
+    position: relative;
     background-color: transparent;
     background-image: url(assets/Cards.png);
     background-size: cover;
@@ -48,19 +53,27 @@ em {
         -ms-background-size: cover;   
         -o-background-size: cover;  
 }
-
-
+.arrow {
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    margin-left: -40px;
+    bottom: -40px;
+    position: absolute;
+}
 #about {
-    /* height: 800px; */
     width: 100%;
     padding: 100px;
     background-color: white;
     text-align: center;
 }
-
 .mePic {
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+/* USED ON PORTFOLIO AND CONTACT PAGES */
 
 .mainContainer {
     padding-top: 70px;
@@ -69,14 +82,27 @@ em {
     margin-right: 20px;
 }
 
+/* PORFOLIO PAGE STYLING */
+
 .portfolioImages {
     margin-bottom: 30px;
 }
 
+/* CONTACT PAGE STYLING */
+
 .formContainer {
     padding-top: 70px;
+    padding-bottom: 70px;
+    /* margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(255, 255, 255, .5); */
 }
-
 .formText {
     text-align: center;
+}
+
+/* FOOTER STYLING */
+
+.footerCustom {
+    background-color: rgba(109, 129, 182, .1);
 }
