@@ -10,7 +10,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Google Fonts -->
     <link
@@ -27,13 +27,15 @@
     <!-- HEADER -->
     <header>
         <!-- LOGO: linking back to home page -->
-        <a href="index.html"><img src="assets/logo_2018-rgb.png" alt="logo" class="logo"></a>
+        <a href="index.html"><img src="./assets/images/logo_2018-rgb.png" alt="logo" class="logo"></a>
         <!-- NAVIGATION: about(bookmarked) - portfolio - contact -->
         <nav>
             <ul class="nav justify-content-center">
                 <!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./assets/files/CarolynMaryStolze_techResume.pdf"
+                        target="_blank">Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -42,31 +44,95 @@
     <!-- MAIN CONTAINER HOLDING PORTFOLIO IMAGES -->
     <main class="mainContainer">
 
-        <!-- ROW ONE -->
+        <!-- TECH SAMPLES -->
+        <section class="row techCards" style="margin-bottom: 20px;">
+
+            <div class="col-sm-2"></div> <!-- Blank columns to center content -->
+
+            <div class="col-sm-8">
+
+                <section class="mb-3">
+
+                    <div class="row">
+
+                        <!-- burger -->
+                        <div class="col-md techCards">
+                            <div class="techImg"><img src="./assets/images/BurgerLogger.gif" class="card-img-top" alt="Burger Logger"></div>
+                            <h5 class="">Burger Logger</h5>
+                            <p class="">Restaurant app that lets users input burgers they'd like to eat with an option to move it to the devoured list.</p>
+                            <p class="">JavaScript, Handlebars, HTML/CSS, Bootstrap, GoogleFonts, MySQL, SQL, Sequelize, API, AJAX, JSON, Express, Node, Middleware</p>
+                            <p class="">Role: Sole author</p>
+                            <a href="https://burger-logger-cm.herokuapp.com" class="card-link">Live Site</a>
+                            <a href="https://github.com/carolynmary/burger-logger" class="card-link">GitHub</a>
+                        </div>
+
+                        <!-- Hustle Data -->
+                        <div class="col-md techCards">
+                            <div class="techImg"><img src="./assets/images/HustleDataScreenshot.png" class="card-img-top" alt="Hustle Data"></div>
+                            <h5 class="">$HustleData</h5>
+                            <p class="">An app that pulls historical financial data to answer company specific stock market questions.</p>
+                            <p class="">JavaScript, HTML/CSS, Bootstrap, GoogleFonts, API, AJAX</p>
+                            <p class="">Role: Project manager, implementation of the News API</p>
+                            <a href="https://carolynmary.github.io/hustle-data/" class="card-link">Live Site</a>
+                            <a href="https://github.com/carolynmary/hustle-data" class="card-link">GitHub</a>
+                        </div>
+
+                        <!-- Emp Mgmt Sys -->
+                        <div class="col-md techCards">
+                            <div class="techImg"><img src="./assets/images/EmpMgmtSys.gif" class="card-img-top" alt="Employee Management System"></div>
+                            <h5 class="">Employee Management System</h5>
+                            <p class="">Content Management System (CMS) which organizes a business’ departments, roles and employees.</p>
+                            <p class="">JavaScript, MySQL, SQL, Sequelize, Node, NPM</p>
+                            <p class="">Role: Sole author</p>
+                            <a href=" https://github.com/carolynmary/employee-management-system" class="card-link">GitHub</a>
+                        </div>
+
+                    </div>
+                    
+                </section>
+
+            </div>
+
+            <div class="col-sm-2"></div> <!-- Blank columns to center content -->
+            
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- DESIGN SAMPLES 1 -->
         <section class="row">
             <!-- Blank columns to center content -->
             <div class="col-sm-2"></div>
             <!-- Image 1 -->
             <section class="col-sm-4">
-                <img src="assets/CARAVELLE-rebrand-4x3.jpg" alt="Caravelle" class="img-fluid portfolioImages">
+                <img src="./assets/images/CARAVELLE-rebrand-4x3.jpg" alt="Caravelle" class="img-fluid portfolioImages">
             </section>
             <!-- Image 2 -->
             <section class="col-sm-4">
-                <img src="assets/JPL-branding-4x3.jpg" alt="JPL Branding" class="img-fluid portfolioImages">
+                <img src="./assets/images/JPL-branding-4x3.jpg" alt="JPL Branding" class="img-fluid portfolioImages">
             </section>
         </section>
 
-        <!-- ROW TWO -->
+        <!-- DESIGN SAMPLES 2 -->
         <section class="row">
             <!-- Blank columns to center content -->
             <div class="col-sm-2"></div>
             <!-- Image 1 -->
             <section class="col-sm-4">
-                <img src="assets/JPL-jpl2025-4x3.jpg" alt="JPL 2025" class="img-fluid portfolioImages">
+                <img src="./assets/images/JPL-jpl2025-4x3.jpg" alt="JPL 2025" class="img-fluid portfolioImages">
             </section>
             <!-- Image 2 -->
             <section class="col-sm-4">
-                <img src="assets/JPL-speakersbureau-4x3.jpg" alt="NASA/JPL presentation"
+                <img src="./assets/images/JPL-speakersbureau-4x3.jpg" alt="NASA/JPL presentation"
                     class="img-fluid portfolioImages">
             </section>
         </section>
@@ -78,11 +144,12 @@
             <div class="col-sm-2"></div>
             <!-- Image 1 -->
             <section class="col-sm-4">
-                <img src="assets/RETOUCHING-4x3.jpg" alt="Caravelle" class="img-fluid portfolioImages">
+                <img src="./assets/images/RETOUCHING-4x3.jpg" alt="Topps/NFL" class="img-fluid portfolioImages">
             </section>
             <!-- Image 2 -->
             <section class="col-sm-4">
-                <img src="assets/SHERPA-4x3-small.jpg" alt="Caravelle" class="img-fluid portfolioImages">
+                <img src="./assets/images/SHERPA-4x3-small.jpg" alt="Sherpa Survivalist"
+                    class="img-fluid portfolioImages">
             </section>
 
     </main>
@@ -90,14 +157,14 @@
     <!-- FOOTER -->
     <footer class="footer mt-auto py-3 footerCustom">
         <div class="container">
-            <span class="text-muted">Find me on Social Media!</span>
+            <!-- <span class="text-muted">Find me on Social Media!</span> -->
 
-            <!-- SOCIAL MEDIA: LI, FB, IG (FB Link not working, need to look into) -->
+            <!-- SOCIAL -->
             <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="https://github.com/carolynmary"
+                        target="_blank">GitHub</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/carolynmarystolze"
                         target="_blank">LinkedIn</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/carolyn.stolze"
-                        target="_blank">Facebook</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/_carolynmary/"
                         target="_blank">Instagram</a></li>
             </ul>

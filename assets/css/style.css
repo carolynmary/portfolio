@@ -6,7 +6,7 @@ body {
     font-stretch: semi-expanded;
     letter-spacing: 3px;
     text-align: center;
-    background-image: url(assets/Background_smooth.png);
+    background-image: url(../images/Background_smooth.png);
 }
 h1 {
     letter-spacing: 3px;
@@ -26,6 +26,7 @@ em {
     margin-bottom: 10px;
     display: block;
 }
+
 .nav-link {
     color:#6d81b6;
 }
@@ -46,7 +47,7 @@ em {
     margin-bottom: 0;
     position: relative;
     background-color: transparent;
-    background-image: url(assets/Cards.png);
+    background-image: url(../images/Cards.png);
     background-size: cover;
         -webkit-background-size: cover;    
         -moz-background-size: cover;   
@@ -92,6 +93,10 @@ em {
     margin-bottom: 30px;
 }
 
+.techCards {
+    text-align: left;
+}
+
 /* CONTACT PAGE STYLING */
 
 .formContainer {
@@ -125,4 +130,27 @@ em {
 
 .footerCustom {
     background-color: rgba(109, 129, 182, .1);
+}
+
+.links {
+    color:#6d81b6;
+}
+.links:hover {
+    color:#333;
+    /* width: 110%;
+    border-radius: 20px;
+    background-color: #6d81b6; */
+}
+.links:active {
+    color: #333333;
+}
+
+.techImg {
+    height: 215px;
+    overflow: hidden;
+}
+
+.techCards {
+    background-color: transparent;
+    border: transparent;
 }

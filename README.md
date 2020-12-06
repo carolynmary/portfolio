@@ -1,14 +1,46 @@
-## responsive-portfolio
- https://carolynmary.github.io/portfolio
+![header](./assets/images/cm_header.png)
+
+<!-- Badges: MAY NEED TO ADJUST LICENSE BADGE URL -->
+![License](https://img.shields.io/badge/License-XXXXXXXXXX-green) </br>
+
+<!-- ![logo](pathToFileHere) -->
+# My Portfolio Site!   
+[github.com/carolynmary/portfolio](https://github.com/carolynmary/portfolio)
  
- https://github.com/carolynmary/portfolio
- 
- (I just saw a comment 1 min ago from a previous submission to add a screenshot in my README file, I will look into how to do that for next submission.)
+- - -
+- - -
+### A mixed gallery of my brain children, collaborations and commissioned work through programming and design.
+- - -
+- - -
 
-#
-This assignment was a great learning experience, I had fun with it! I styled the pages a little differently from the examples shown to us, I hope that's ok. 
+<!-- TOC -->
+[How to Use](#how-to-use) // [What’s Next](#whats-next) // [License](#license) // [Questions & Feedback](#questions-feedback) 
+  
+## How to Use 
 
-There's a few nits I would love to spend more time on refining, I'm hoping you don't even notice! It may be things that I notice just because I come from the design field. 
+![demo](pathToFileHere)
 
-Looking foward to feedback to learn better ways to execute this.
+## What’s Next
 
+I’m continuously adding more work, come back often :) 
+
+## License
+    
+The code is licensed under the [XXXXXX](https://choosealicense.com/licenses/mit/) License.
+  
+## Questions & Feedback
+  
+Have a question or feedback? Send me a note or just say hi, I’d be happy to hear from you!
+  
+Email: carolyn@carolynmary.com </br>
+  
+GitHub: [carolynmary](https://github.com/carolynmary) </br>
+  
+Porfolio: [carolynmary.com](https://carolynmary.com) 
+  
+> “Knowledge is having the right answer. Intelligence is asking the right question.” ~ Unknown
+  
+</br>
+
+![footer](./assets/images/cm_footer.png)
+© 2020 Carolyn Mary Stolze
