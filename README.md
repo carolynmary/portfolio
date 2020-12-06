@@ -5,7 +5,7 @@
 
 <!-- ![logo](pathToFileHere) -->
 # My Portfolio Site!   
-[github.com/carolynmary/portfolio](https://github.com/carolynmary/portfolio)
+[carolynmary.github.io/portfolio](https://carolynmary.github.io/portfolio/)
  
 - - -
 - - -
