@@ -1,7 +1,7 @@
 ![header](./assets/images/cm_header.png)
 
 <!-- Badges: MAY NEED TO ADJUST LICENSE BADGE URL -->
-![License](https://img.shields.io/badge/License-XXXXXXXXXX-green) </br>
+![License](https://img.shields.io/badge/License-MIT-green) </br>
 
 <!-- ![logo](pathToFileHere) -->
 # My Portfolio Site!   
@@ -14,11 +14,9 @@
 - - -
 
 <!-- TOC -->
-[How to Use](#how-to-use) // [What’s Next](#whats-next) // [License](#license) // [Questions & Feedback](#questions-feedback) 
-  
-## How to Use 
+[What’s Next](#whats-next) // [License](#license) // [Questions & Feedback](#questions-feedback) 
 
-![demo](pathToFileHere)
+![demo](./assets/images/portfolio-snapshot.png)
 
 ## What’s Next
 
@@ -26,7 +24,7 @@ I’m continuously adding more work, come back often :)
 
 ## License
     
-The code is licensed under the [XXXXXX](https://choosealicense.com/licenses/mit/) License.
+The code is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
   
 ## Questions & Feedback
   
