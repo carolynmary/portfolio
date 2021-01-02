@@ -41,4 +41,4 @@ Porfolio: [carolynmary.com](https://carolynmary.com)
 </br>
 
 ![footer](./assets/images/cm_footer.png)
-© 2020 Carolyn Mary Stolze
+© 2021 Carolyn Mary Stolze
