@@ -31,126 +31,190 @@
         <!-- NAVIGATION: about(bookmarked) - portfolio - contact -->
         <nav>
             <ul class="nav justify-content-center">
-                <!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="./assets/files/CarolynMaryStolze_techResume.pdf"
+                <li class="nav-item"><a class="nav-link" href="./assets/files/CarolynMaryStolze_resume.pdf"
                         target="_blank">Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- MAIN CONTAINER HOLDING PORTFOLIO IMAGES -->
+    <!-- MAIN CONTAINER -->
     <main class="mainContainer">
 
         <!-- TECH SAMPLES -->
-        <section class="row techCards" style="margin-bottom: 20px;">
 
-            <div class="col-sm-2"></div> <!-- Blank columns to center content -->
+        <section class="card mb-3 techContainer">
+            <h1 class="display-4" style="line-height: 80%; padding-bottom: 80px; font-size: 40px; text-align: center; color: #aaaaaa;"><em>Programming Samples</em></h1>
 
-            <div class="col-sm-8">
-
-                <section class="mb-3">
-
-                    <div class="row">
-
-                        <!-- burger -->
-                        <div class="col-md techCards">
-                            <div class="techImg"><img src="./assets/images/BurgerLogger.gif" class="card-img-top" alt="Burger Logger"></div>
-                            <h5 class="">Burger Logger</h5>
-                            <p class="">Restaurant app that lets users input burgers they'd like to eat with an option to move it to the devoured list.</p>
-                            <p class="">JavaScript, Handlebars, HTML/CSS, Bootstrap, GoogleFonts, MySQL, SQL, Sequelize, API, AJAX, JSON, Express, Node, Middleware</p>
-                            <p class="">Role: Sole author</p>
-                            <a href="https://burger-logger-cm.herokuapp.com" class="card-link">Live Site</a>
-                            <a href="https://github.com/carolynmary/burger-logger" class="card-link">GitHub</a>
-                        </div>
-
-                        <!-- Hustle Data -->
-                        <div class="col-md techCards">
-                            <div class="techImg"><img src="./assets/images/HustleDataScreenshot.png" class="card-img-top" alt="Hustle Data"></div>
-                            <h5 class="">$HustleData</h5>
-                            <p class="">An app that pulls historical financial data to answer company specific stock market questions.</p>
-                            <p class="">JavaScript, HTML/CSS, Bootstrap, GoogleFonts, API, AJAX</p>
-                            <p class="">Role: Project manager, implementation of the News API</p>
-                            <a href="https://carolynmary.github.io/hustle-data/" class="card-link">Live Site</a>
-                            <a href="https://github.com/carolynmary/hustle-data" class="card-link">GitHub</a>
-                        </div>
-
-                        <!-- Emp Mgmt Sys -->
-                        <div class="col-md techCards">
-                            <div class="techImg"><img src="./assets/images/EmpMgmtSys.gif" class="card-img-top" alt="Employee Management System"></div>
-                            <h5 class="">Employee Management System</h5>
-                            <p class="">Content Management System (CMS) which organizes a business’ departments, roles and employees.</p>
-                            <p class="">JavaScript, MySQL, SQL, Sequelize, Node, NPM</p>
-                            <p class="">Role: Sole author</p>
-                            <a href=" https://github.com/carolynmary/employee-management-system" class="card-link">GitHub</a>
-                        </div>
-
+            <!-- Employee Search -->
+            <div class="row g-0 techCards">
+                <div class="col-md-4 techImg" style="background-image: url('./assets/images/empDir-demo.gif')"></div>
+                <div class="col-md-8">
+                    <div class="card-body" style="padding-top: 0;">
+                        <h4 class="card-title">Employee Directory Search</h4>
+                        <p class="card-text">Searchable employee directory site with capabilities to sort employees by name or filter using the search field.  JavaScript, React, HTML/CSS, Bootstrap, API, Node. <br>
+                            <em>Role:</em> Sole author<br>
+                            <em>Live Site:</em> <a href="https://carolynmary.github.io/employee-search/" class="card-link"
+                                target="_blank">carolynmary.github.io/employee-search</a> <br>
+                            <em>GitHub:</em> <a href="https://github.com/carolynmary/employee-search" class="card-link"
+                                target="_blank">github.com/carolynmary/employee-search</a>
+                        </p>
                     </div>
-                    
-                </section>
-
+                </div>
             </div>
 
+            <!-- Budget Tracker -->
+            <div class="row g-0 techCards">
+                <div class="col-md-4 techImg" style="background-image: url('./assets/images/budget-demo.gif')"></div>
+                <div class="col-md-8">
+                    <div class="card-body" style="padding-top: 0;">
+                        <h4 class="card-title">Budget Tracker</h4>
+                        <p class="card-text">Track your withdrawals and deposits with this budget tracker that works online and offline! JavaScript, HTML/CSS, Bootstrap, Express, MongoDB, Mongoose, API, Node. <br>
+                            <em>Role:</em> Sole author<br>
+                            <em>Live Site:</em> <a href="https://budget-tracker-cm.herokuapp.com/" class="card-link"
+                                target="_blank">budget-tracker-cm.herokuapp.com</a> <br>
+                            <em>GitHub:</em> <a href="https://github.com/carolynmary/budget-tracker" class="card-link"
+                                target="_blank">github.com/carolynmary/budget-tracker</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fitness Tracker -->
+            <div class="row g-0 techCards">
+                <div class="col-md-4 techImg" style="background-image: url('./assets/images/fitness-tracker.gif')"></div>
+                <div class="col-md-8">
+                    <div class="card-body" style="padding-top: 0;">
+                        <h4 class="card-title">Fitness Tracker</h4>
+                        <p class="card-text">Log multiple exercises in a workout on a given day. You can track the name, type, weight, sets, reps and duration of each exercise. And if it's cardio, you can track your distance. JavaScript, HTML/CSS, Bootstrap, Express, MongoDB, Mongoose, API, Node. <br>
+                            <em>Role:</em> Sole author<br>
+                            <em>Live Site:</em> <a href="https://fitness-tracker-cm.herokuapp.com/" class="card-link"
+                                target="_blank">fitness-tracker-cm.herokuapp.com</a> <br>
+                            <em>GitHub:</em> <a href="https://github.com/carolynmary/fitness-tracker" class="card-link"
+                                target="_blank">github.com/carolynmary/fitness-tracker</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- burger logger -->
+            <div class="row g-0 techCards">
+                <div class="col-md-4 techImg" style="background-image: url('./assets/images/BurgerLogger.gif')"></div>
+                <div class="col-md-8">
+                    <div class="card-body" style="padding-top: 0;">
+                        <h4 class="card-title">Burger Logger</h4>
+                        <p class="card-text">Restaurant app that lets users input burgers they'd like to eat with an
+                            option to move it to the devoured list. JavaScript, Handlebars, HTML/CSS, Bootstrap,
+                            GoogleFonts, MySQL, SQL,
+                            Sequelize, API, AJAX, JSON, Express, Node, Middleware. <br>
+                            <em>Role:</em> Sole author<br>
+                            <em>Live Site:</em> <a href="https://burger-logger-cm.herokuapp.com" class="card-link"
+                                target="_blank">burger-logger-cm.herokuapp.com</a> <br>
+                            <em>GitHub:</em> <a href="https://github.com/carolynmary/burger-logger" class="card-link"
+                                target="_blank">github.com/carolynmary/burger-logger</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hustle Data -->
+            <div class="row g-0 techCards">
+                <div class="col-md-4 techImg" style="background-image: url('./assets/images/HustleDataScreenshot.png')">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body" style="padding-top: 0;">
+                        <h4 class="card-title">$HustleData</h4>
+                        <p class="card-text">An app that pulls historical financial data to answer company specific
+                            stock
+                            market questions. JavaScript, HTML/CSS, Bootstrap, GoogleFonts, API, AJAX. <br>
+                            <em>Role: </em>Project manager, implementation of the News API<br>
+                            <em>Live Site: </em> <a href="https://carolynmary.github.io/hustle-data/" class="card-link"
+                                target="_blank">carolynmary.github.io/hustle-data</a> <br>
+                            <em>GitHub: </em> <a href="https://github.com/carolynmary/hustle-data" class="card-link"
+                                target="_blank">github.com/carolynmary/hustle-data</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emp Mgmt Sys -->
+            <div class="row g-0 techCards">
+                <div class="col-md-4 techImg" style="background-image: url('./assets/images/EmpMgmtSys.gif')">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body" style="padding-top: 0;">
+                        <h4 class="card-title">Employee Management System</h4>
+                        <p class="card-text">Content Management System (CMS) which organizes a business’ departments,
+                            roles
+                            and employees. JavaScript, MySQL, SQL, Sequelize, Node, NPM. <br>
+                            <em>Role: </em>Sole author<br>
+                            <em>GitHub: </em> <a href="https://github.com/carolynmary/employee-management-system"
+                                class="card-link" target="_blank">github.com/carolynmary/employee-management-system</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!-- DESIGN SAMPLES -->
+        <section class="designContainer">
+
+            <h1 class="display-4" style="line-height: 80%; padding-bottom: 80px; font-size: 40px; color: #aaaaaa;"><em>Design Samples</em></h1>
+
             <div class="col-sm-2"></div> <!-- Blank columns to center content -->
-            
+
+            <!-- ROW 1 -->
+            <section class="row">
+                <!-- Blank columns to center content -->
+                <div class="col-sm-2"></div>
+                <!-- Image 1 -->
+                <section class="col-sm-4">
+                    <img src="./assets/images/CARAVELLE-rebrand-4x3.jpg" alt="Caravelle"
+                        class="img-fluid designImages">
+                </section>
+                <!-- Image 2 -->
+                <section class="col-sm-4">
+                    <img src="./assets/images/JPL-branding-4x3.jpg" alt="JPL Branding"
+                        class="img-fluid designImages">
+                </section>
+            </section>
+
+            <!-- ROW 2 -->
+            <section class="row">
+                <!-- Blank columns to center content -->
+                <div class="col-sm-2"></div>
+                <!-- Image 1 -->
+                <section class="col-sm-4">
+                    <img src="./assets/images/JPL-jpl2025-4x3.jpg" alt="JPL 2025" class="img-fluid designImages">
+                </section>
+                <!-- Image 2 -->
+                <section class="col-sm-4">
+                    <img src="./assets/images/JPL-speakersbureau-4x3.jpg" alt="NASA/JPL presentation"
+                        class="img-fluid designImages">
+                </section>
+            </section>
+
+            <!-- ROW THREE -->
+            <section class="row">
+                <!-- Blank columns to center content -->
+                <div class="col-sm-2"></div>
+                <!-- Image 1 -->
+                <section class="col-sm-4">
+                    <img src="./assets/images/RETOUCHING-4x3.jpg" alt="Topps/NFL" class="img-fluid designImages">
+                </section>
+                <!-- Image 2 -->
+                <section class="col-sm-4">
+                    <img src="./assets/images/SHERPA-4x3-small.jpg" alt="Sherpa Survivalist"
+                        class="img-fluid designImages">
+                </section>
+            </section>
+
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- DESIGN SAMPLES 1 -->
-        <section class="row">
-            <!-- Blank columns to center content -->
-            <div class="col-sm-2"></div>
-            <!-- Image 1 -->
-            <section class="col-sm-4">
-                <img src="./assets/images/CARAVELLE-rebrand-4x3.jpg" alt="Caravelle" class="img-fluid portfolioImages">
-            </section>
-            <!-- Image 2 -->
-            <section class="col-sm-4">
-                <img src="./assets/images/JPL-branding-4x3.jpg" alt="JPL Branding" class="img-fluid portfolioImages">
-            </section>
-        </section>
-
-        <!-- DESIGN SAMPLES 2 -->
-        <section class="row">
-            <!-- Blank columns to center content -->
-            <div class="col-sm-2"></div>
-            <!-- Image 1 -->
-            <section class="col-sm-4">
-                <img src="./assets/images/JPL-jpl2025-4x3.jpg" alt="JPL 2025" class="img-fluid portfolioImages">
-            </section>
-            <!-- Image 2 -->
-            <section class="col-sm-4">
-                <img src="./assets/images/JPL-speakersbureau-4x3.jpg" alt="NASA/JPL presentation"
-                    class="img-fluid portfolioImages">
-            </section>
-        </section>
-
-
-        <!-- ROW THREE -->
-        <section class="row">
-            <!-- Blank columns to center content -->
-            <div class="col-sm-2"></div>
-            <!-- Image 1 -->
-            <section class="col-sm-4">
-                <img src="./assets/images/RETOUCHING-4x3.jpg" alt="Topps/NFL" class="img-fluid portfolioImages">
-            </section>
-            <!-- Image 2 -->
-            <section class="col-sm-4">
-                <img src="./assets/images/SHERPA-4x3-small.jpg" alt="Sherpa Survivalist"
-                    class="img-fluid portfolioImages">
-            </section>
 
     </main>
 

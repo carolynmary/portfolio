@@ -1,4 +1,3 @@
-
 /* UNIVERSAL STYLING */
 
 body {
@@ -16,6 +15,9 @@ em {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
 }
+
+
+
 
 /* NAV STYLING */
 
@@ -39,6 +41,9 @@ em {
 .nav-link:active {
     color: #333333;
 }
+
+
+
 
 /* HOME PAGE STYLING */
 
@@ -74,28 +79,68 @@ em {
 }
 .mePic {
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+
+
 
 /* USED ON PORTFOLIO AND CONTACT PAGES */
 
 .mainContainer {
     padding-top: 70px;
     padding-bottom: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin: auto; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
-/* PORFOLIO PAGE STYLING */
 
-.portfolioImages {
+
+
+/* DESIGN SAMPLE STYLING */
+
+.designContainer {
+    margin-top: 150px;
+}
+.designImages {
     margin-bottom: 30px;
 }
 
-.techCards {
+
+
+
+/* TECH SAMPLE STYLING */
+
+.techContainer {
+    background-color: transparent;
+    border: transparent;
     text-align: left;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+.techCards {
+    padding-bottom: 20px;
+    /* margin-left: 0; */
+}
+.techImg {
+    width: 100%;
+    max-height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover; 
+    /* overflow: hidden; */
+}
+.techCards p {
+    font-size: 14px;
+    font-stretch: normal;
+    letter-spacing: 0px;
+}
+
+
+
 
 /* CONTACT PAGE STYLING */
 
@@ -126,6 +171,9 @@ em {
     border-color: #6d81b6;
 } */
 
+
+
+
 /* FOOTER STYLING */
 
 .footerCustom {
@@ -143,14 +191,4 @@ em {
 }
 .links:active {
     color: #333333;
-}
-
-.techImg {
-    height: 215px;
-    overflow: hidden;
-}
-
-.techCards {
-    background-color: transparent;
-    border: transparent;
 }
